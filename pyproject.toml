@@ -12,6 +12,7 @@ dependencies = [
     "pycryptodome",
     "cryptography",
     "pyasn1",
+    "requests",
 ]
 
 [project.scripts]

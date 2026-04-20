@@ -1,3 +1,0 @@
-[console_scripts]
-evil-winrmexec = winrmexec.evil:main
-winrmexec = winrmexec.main:main
