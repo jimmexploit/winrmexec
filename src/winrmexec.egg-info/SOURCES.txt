@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+src/winrmexec/__init__.py
+src/winrmexec/evil.py
+src/winrmexec/evil_winrmexec.py
+src/winrmexec/main.py
+src/winrmexec/winrmexec.py
+src/winrmexec.egg-info/PKG-INFO
+src/winrmexec.egg-info/SOURCES.txt
+src/winrmexec.egg-info/dependency_links.txt
+src/winrmexec.egg-info/entry_points.txt
+src/winrmexec.egg-info/requires.txt
+src/winrmexec.egg-info/top_level.txt

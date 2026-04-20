@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "winrmexec"
+version = "0.1.0"
+description = "Impacket-only WinRM client with NTLM and Kerberos support"
+requires-python = ">=3.8"
+dependencies = [
+    "impacket",
+    "pycryptodome",
+    "cryptography",
+    "pyasn1",
+]
+
+[project.scripts]
+winrmexec = "winrmexec.main:main"
+evil-winrmexec = "winrmexec.evil:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

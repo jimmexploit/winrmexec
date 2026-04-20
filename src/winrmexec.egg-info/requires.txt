@@ -1,0 +1,4 @@
+impacket
+pycryptodome
+cryptography
+pyasn1
